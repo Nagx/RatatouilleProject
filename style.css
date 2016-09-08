@@ -1,0 +1,26 @@
+body {
+    margin: 0 auto;
+    max-width: 900px;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+
+#back-logo {
+    background: url(images/back-logo2.jpg);
+    background-size: cover;
+    width: 100%;
+    height: auto;
+}
+#logo {
+	margin-top: 50px;
+}
+
+#description {}
