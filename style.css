@@ -1,26 +1,15 @@
-body {
-    margin: 0 auto;
-    max-width: 900px;
-}
-
 header {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-
+    margin: 0px;
+    padding: 0px;
 }
-
-
-#back-logo {
-    background: url(images/back-logo2.jpg);
+.page-header {
+    background-image: url("images/back-logo3.jpg");
     background-size: cover;
-    width: 100%;
-    height: auto;
+    height: 250px;
+    margin: 0px;
+    text-align: center;
 }
-#logo {
-	margin-top: 50px;
+h1 small{
+    margin: 0;
+    color: white;
 }
-
-#description {}
