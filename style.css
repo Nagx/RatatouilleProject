@@ -32,5 +32,8 @@ h1 small {
     border-color: darkgoldenrod;
     color: darkgoldenrod;
 }
+#title {
+	text-shadow: 2px 2px black;
+}
 
 >>>>>>> Kev
