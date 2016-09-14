@@ -23,24 +23,19 @@
         </ul>
         <div class="tab-content">
             <div id="home" class="tab-pane fade in active">
-                <h3>HOME</h3>
-                <p>Some content.</p>
+                <?php include('accueil.php'); ?>
             </div>
             <div id="menu1" class="tab-pane fade">
-                <h3>Menu 1</h3>
-                <p>Some content in menu 1.</p>
+                <?php include('qui_sommes_nous.php'); ?>
             </div>
             <div id="menu2" class="tab-pane fade">
-                <h3>Menu 2</h3>
-                <p>Some content in menu 2.</p>
+                <?php include('franchise.php'); ?>
             </div>
         </div>
     </header>
-    <H1>Du BIO du BEAU et du BON</H1>
-</br>
-<p>Nos restaurant sont tous basés sur de la nouriture BIO de première fraicheur.</p>
-<p>Avec des menus propres à chaque restaurant permettant d'adapter le cuisine locale au concept<p0>
-<p> le client se retrouve gagnant avec une nourriture saine et de tradition</p>
+
+    </br>
+
     <footer>
     </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
