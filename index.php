@@ -23,13 +23,13 @@
         </ul>
         <div class="tab-content">
             <div id="home" class="tab-pane fade in active">
-                <?php include('accueil.php'); ?>
+                <?php include('contenus/accueil.php'); ?>
             </div>
             <div id="menu1" class="tab-pane fade">
-                <?php include('qui_sommes_nous.php'); ?>
+                <?php include('contenus/qui_sommes_nous.php'); ?>
             </div>
             <div id="menu2" class="tab-pane fade">
-                <?php include('franchise.php'); ?>
+                <?php include('contenus/franchise.php'); ?>
             </div>
         </div>
     </header>
@@ -37,6 +37,7 @@
     </br>
 
     <footer>
+
     </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
