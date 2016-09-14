@@ -66,6 +66,11 @@ h1 small {
 	margin : 5px;
 }
 
+/* Options images fonders */
+.founders {
+	float: left;
+}
+
 /* Options pour le pied de page */
 
 footer {
