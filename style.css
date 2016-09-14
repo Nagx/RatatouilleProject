@@ -1,19 +1,17 @@
 /* Options Générales */
+
 @font-face {
     font-family: 'fancypantsregular';
     src: url('police/FancyPants-webfont.eot');
-    src: url('police/FancyPants-webfont.eot?#iefix') format('embedded-opentype'),
-         url('police/FancyPants-webfont.woff') format('woff'),
-         url('police/FancyPants-webfont.ttf') format('truetype'),
-         url('police/FancyPants-webfont.svg#fancypantsregular') format('svg');
+    src: url('police/FancyPants-webfont.eot?#iefix') format('embedded-opentype'), url('police/FancyPants-webfont.woff') format('woff'), url('police/FancyPants-webfont.ttf') format('truetype'), url('police/FancyPants-webfont.svg#fancypantsregular') format('svg');
     font-weight: normal;
     font-style: normal;
-
 }
 
 body {
     color: black;
     background-image: url("images/back.png");
+    background-attachment: fixed;
     text-align: center;
 }
 
@@ -28,7 +26,6 @@ body {
     text-align: center;
     border: 0;
 }
-
 
 #title,
 h1 small {
@@ -85,81 +82,63 @@ h1 small {
 /* Options images founders */
 
 .founders {
-	float: left;
-	margin: 0 5px 0 0;
+    float: left;
+    margin: 0 5px 0 0;
 }
 
 .founder {
-	margin: 10px 0 40px 0;
+    margin: 10px 0 40px 0;
 }
 
 .require {
-	color: red;
-	font-weight: bold;
+    color: red;
+    font-weight: bold;
 }
+
 
 /* Options pour le pied de page */
 
 footer {
+    text-align: left;
+    font-size: 10;
     background: grey;
-    height: 100px;
+    padding-top: 5px;
 }
 
+
+/* Options pour l'actualité mobile*/
 #accordion {
-	color: black;
-}
-.pill_img {
-    max-height: 100px;
-    max-width: 100px;
-    border-radius: 50px;
-    border: solid grey;
+    color: black;
 }
 
-
-@import url(//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css);
-body { padding-top: 60px; }
-.nav.nav-justified > li > a { position: relative; }
-.nav.nav-justified > li > a:hover,
-.nav.nav-justified > li > a:focus { background-color: transparent; }
-.nav.nav-justified > li > a > .quote {
-    position: absolute;
-    left: 0px;
-    top: 0;
-    opacity: 0;
-    width: 30px;
-    height: 30px;
-    padding: 5px;
-    background-color: #13c0ba;
-    border-radius: 15px;
-    color: #fff;
+/* Options pour l'actualité web */
+.nav.nav-justified > li.active > a > .quote {
+    opacity: 1;
 }
-.nav.nav-justified > li.active > a > .quote { opacity: 1; }
-.nav.nav-justified > li > a > img { box-shadow: 0 0 0 5px #13c0ba; }
+
+.nav.nav-justified > li > a > img {
+    box-shadow: 0 0 0 5px #13c0ba;
+}
+
 .nav.nav-justified > li > a > img {
     max-width: 100%;
     opacity: .3;
-    -webkit-transform: scale(.8,.8);
-            transform: scale(.8,.8);
+    -webkit-transform: scale(.8, .8);
+    transform: scale(.8, .8);
     -webkit-transition: all 0.3s 0s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-            transition: all 0.3s 0s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    transition: all 0.3s 0s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
+
 .nav.nav-justified > li.active > a > img,
 .nav.nav-justified > li:hover > a > img,
 .nav.nav-justified > li:focus > a > img {
     opacity: 1;
     -webkit-transform: none;
-            transform: none;
+    transform: none;
     -webkit-transition: all 0.3s 0s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-            transition: all 0.3s 0s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    transition: all 0.3s 0s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
-.tab-pane .tab-inner { padding: 30px 0 20px; }
 
-@media (min-width: 768px) {
-    .nav.nav-justified > li > a > .quote {
-        display: none;
-        left: auto;
-        top: auto;
-        right: 20px;
-        bottom: 0px;
-    }
+.tab-pane .tab-inner {
+    padding: 30px 0 20px;
 }

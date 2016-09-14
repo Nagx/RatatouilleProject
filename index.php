@@ -37,33 +37,34 @@
                 <?php include('contenus/franchise.php'); ?>
             </div>
         </div>
-        <!--<div>
-           <img class="pill_img" src="images/ratatouille.jpg"/>
-            <img class="pill_img" src=""/>
-            <img class="pill_img" src=""/>
-        </div>-->
     </header>
 
-    </br>
-
     <!-- Pied de page -->
-    <footer>
-		<div id="BasDePageGauche">
-			<p>© 2016 WildCodeSchool Tous droits réservés.</br>
-			Ceci n'est pas un site présentant un vrai restaurant</br>
-			Mais un travail fait par des étudiant en projet initial</br>
-			<a href="mailto:fake@faux.com">contact</a></br>
-			tel : 01 23 45 67 89</p>
-		</div>
-		<div id="BasDePageCentral">
-			<p>SARL Ratatouille au capital 7000€</br>
-			Siège social : 17, rue Delandine, 69002 LYON</br>
-			RCS LYON 042 007 069</br>
-		</div>
-		<div id="BasDePageCentral">
-			<p>Site hébergé par ?</br>
-			Directeur de publication: Damien Beauseigneur</p>
-		</div>
+    <footer class="container-fluid">
+        <div class="row">
+            <div class="col-md-4" id="bdpleft">
+                <address>
+                      <strong>SARL Ratatouille au capital 70.000€</strong><br>
+                      Siège social : 17, rue Delandine, 69002 LYON<br>
+                      RCS LYON 042 007 069<br>
+                      <abbr title="Phone">Tel:</abbr> 01-23-45-67-89
+                    </address>
+                <address>
+                      <strong>Ratatouille Restaurant</strong><br>
+                      <a href="mailto:#">ratatouille@wildcodeschool.com</a>
+                    </address>
+            </div>
+            <div class="col-md-4" id="bdpcenter">
+                <p>© 2016 WildCodeSchool Tous droits réservés.</br>
+                    Ceci n'est pas un site présentant un vrai restaurant</br>
+                    Mais un travail fait par des étudiant en projet initial</br>
+                </p>
+            </div>
+            <div class="col-md-4" id="bdpright">
+                <p>Site hébergé par ?</br>
+                    Directeur de publication: Damien Beauseigneur</p>
+            </div>
+        </div>
     </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
