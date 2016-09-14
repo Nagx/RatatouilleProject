@@ -1,6 +1,6 @@
 <h2>LA FRANCHISE</h2>
 <p class="descriptif">Créé en 2015 avec un premier restaurant à la LOUPE, nous avons eu des demandes pour reprendre la thématique et le mode de fonctionnement de notre restaurant basé sur de la nourriture BIO, fraiche et écoresponsable.</br>
-	Compte tenu de ces conditions nous n'avons pas voulu imposer un menu à tous les restaurants, mais nous avons quand même tenu à valider un plat commun la ratatouille.</p>
+    Compte tenu de ces conditions nous n'avons pas voulu imposer un menu à tous les restaurants, mais nous avons quand même tenu à valider un plat commun la ratatouille.</p>
 
 <h2>LES FONDATEURS</h2>
 <div class ="founder">
@@ -14,4 +14,6 @@
 <h3>Laurent AUBERTIN</h3>
 <p CLASS="descriptif"><img src='images/laurent_aubertin.jpg' alt="Laurent Aubertin" class ="founders">Grand amoureux de la bonne cuisine et du bio, Laurent à participé à la réalisation de la charte de la franchise ainsi que ses critères d'admissions.</br>
    En tant que second dans un grand restaurant il a voulu s'émanciper et créer son premier restaurant qui grâce à son concept innovant a grandement contribué à la création de la franchise.</p>
+
 </div>
+

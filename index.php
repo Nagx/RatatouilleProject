@@ -15,7 +15,7 @@
     <header>
         <div class="row">
             <div class="page-header">
-                <h1 id="title">RATATOUILLE<br/><small>-★★★★★-</small></h1>
+                <h1 id="title">RATATOUILLE<br/><small>-3 B-</small></h1>
             </div>
         </div>
 

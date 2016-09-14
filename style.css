@@ -1,11 +1,9 @@
-
 /* Options Générales */
 
 body {
     color: white;
     background: black;
     text-align: center;
-
 }
 
 
@@ -53,20 +51,26 @@ h1 small {
     margin: auto;
 }
 
+
 /* Options pour le descriptif */
+
 .descriptif {
-	text-align: justify;
-	max-width: 800px;
-	margin: auto;
+    text-align: justify;
+    max-width: 800px;
+    margin: auto;
 }
+
 
 /* Options pour les labels du formulaire */
+
 .form-group {
-	text-align: left;
-	margin : 5px;
+    text-align: left;
+    margin: 5px;
 }
 
+
 /* Options images fonders */
+
 .founders {
 	float: left;
 	margin: 0 5px 0 0;
@@ -76,10 +80,10 @@ h1 small {
 	margin: 10px 0 40px 0;
 }
 
+
 /* Options pour le pied de page */
 
 footer {
     background: grey;
     height: 100px;
 }
-
