@@ -21,34 +21,59 @@
         </div>
     </div>
     <div id="tab2" class="tab-pane fade">
-        <div class="form-group">
-            <label for="exampleInputNom">Nom</label>
-            <input type="text" class="form-control" id="InputNom" placeholder="Nom" required>
-        </div>
-        <div class="form-group">
-            <label for="InputPrenom">Prénom</label>
-            <input type="text" class="form-control" id="Prenom" placeholder="Prénom" required>
-        </div>
-        <div class="form-group">
-            <label for="Adresse">Adresse</label>
-            <input type="text" class="form-control" id="Adresse" placeholder="Adresse">
-        </div>
-        <div class="form-group">
-            <label for="CodePostal">Code Postal</label>
-            <input type="text" class="form-control" id="CodePostal" placeholder="Code Postal">
-        </div>
-        <div class="form-group">
-            <label for="Ville">Ville</label>
-            <input type="text" class="form-control" id="Ville" placeholder="Ville">
-        </div>
-        <div class="form-group">
-            <label for="InputEmail1">adresse email</label>
-            <input type="email" class="form-control" id="InputEmail1" placeholder="Email">
-        </div>
-        <div class="form-group">
-            <label for="InputTelephone">Téléphone</label>
-            <input type="telephone" class="form-control" id="InputTelephone" placeholder="Téléphone" required>
-        </div>
-
-
+        <form>
+			<div class="form-group">
+				<label for="InputNom">Nom <span class="require">*</span></label>
+				<input type="text" class="form-control" id="InputNom" placeholder="Nom" required>
+			</div>
+			<div class="form-group">
+				<label for="InputPrenom">Prénom <span class="require">*</span></label>
+				<input type="text" class="form-control" id="Prenom" placeholder="Prénom" required>
+			</div>
+			<div class="form-group">
+				<label for="Adresse">Adresse</label>
+				<input type="text" class="form-control" id="Adresse" placeholder="Adresse">
+			</div>
+			<div class="form-group">
+				<label for="CodePostal">Code Postal</label>
+				<input type="text" class="form-control" id="CodePostal" placeholder="Code Postal">
+			</div>
+			<div class="form-group">
+				<label for="Ville">Ville</label>
+				<input type="text" class="form-control" id="Ville" placeholder="Ville">
+			</div>
+			<div class="form-group">
+				<label for="InputEmail1">adresse email</label>
+				<input type="email" class="form-control" id="InputEmail1" placeholder="Email">
+			</div>
+			<div class="form-group">
+				<label for="InputTelephone">Téléphone <span class="require">*</span></label>
+				<input type="telephone" class="form-control" id="InputTelephone" placeholder="Téléphone" required>
+			</div>
+			<div class="form-group">
+				<label for="InputNbPlaces">Nombre de places du futur restaurant</label>
+				<input type="number" class="form-control" id="InputNbPlace" placeholder="Nombre de places">
+			</div>
+			<div class="form-group">
+				<label for="InputSurface">Surface du futur restaurant</label>
+				<input type="number" class="form-control" id="InputSurface" placeholder="Surface en m²">
+			</div>
+			<div class="form-group">
+				<label for="InputAdresseResto">Adresse du futur restaurant</label>
+				<input type="number" class="form-control" id="InputAdressResto" placeholder="Adresse du futur restaurant">
+			</div>
+			<div class="form-group">
+				<label for="InputCodePostalResto">Code postal du futur restaurant</label>
+				<input type="text" class="form-control" id="InputCodePostalResto" placeholder="Code postal du futur restaurant">
+			</div>
+			<div class="form-group">
+				<label for="InputVilleResto">Ville du futur restaurant <span class="require">*</span></label>
+				<input type="text" class="form-control" id="InputVilleResto" placeholder="Ville du futur restaurant" required>
+			</div>
+			<div class="form-group">
+				<label for="InputCommentaires">Commentaires</label>
+				<textarea class="form-control" id="InputCommentaires" name="InputCommentaires"></textarea>
+			</div>
+			<button type="submit" class="btn btn-primary">Submit</button>
+		</form>
     </div>
