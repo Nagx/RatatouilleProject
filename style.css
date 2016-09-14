@@ -1,6 +1,7 @@
-<<<<<<< HEAD=======body {
+body {
     color: white;
     background: black;
+    text-align:center;
 }
 
 .page-header {
@@ -36,5 +37,10 @@ h1 small {
 	text-shadow: 2px 2px black;
 }
 
+#descriptif {
+	text-align:justify;
+	max-width:600px;
+	margin:auto;
+}
 
->>>>>>> Kev
+
