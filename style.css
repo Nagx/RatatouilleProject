@@ -53,10 +53,12 @@ h1 small {
     margin: auto;
 }
 
-
-<<<<<<< HEAD
-
-
+/* Options pour le descriptif de la page d'accueil' */
+#descriptif {
+	text-align:justify;
+	max-width:600px;
+	margin:auto;
+}
 
 /* Options pour le pied de page */
 
@@ -64,7 +66,4 @@ footer {
     background: grey;
     height: 100px;
 }
-<<<<<<< HEAD
 
-=======
->>>>>>> cabb5765d0b78923c623b03d8c5a31252c695839
