@@ -1,5 +1,6 @@
 
 /* Options Générales */
+
 body {
     color: white;
     background: black;
@@ -44,23 +45,26 @@ h1 small {
     color: darkgoldenrod;
 }
 
+
 /* Options pour le contenu */
+
 .tab-content {
     max-width: 800px;
     margin: auto;
 }
 
 
-#descriptif {
-	text-align:justify;
-	max-width:600px;
-	margin:auto;
-}
+<<<<<<< HEAD
+
 
 
 /* Options pour le pied de page */
+
 footer {
     background: grey;
     height: 100px;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> cabb5765d0b78923c623b03d8c5a31252c695839
