@@ -1,8 +1,14 @@
+
+/* Options Générales */
 body {
     color: white;
     background: black;
-    text-align:center;
+    text-align: center;
+
 }
+
+
+/* Options pour l'entête */
 
 .page-header {
     background-image: url("images/back-logo3.jpg");
@@ -15,10 +21,14 @@ body {
 
 #title,
 h1 small {
+    text-shadow: 2px 2px black;
     margin: 0;
     color: white;
     padding-top: 100px;
 }
+
+
+/* Options pour le Menu */
 
 .nav-pills > li.active > a,
 .nav-pills > li.active > a:focus,
@@ -33,9 +43,13 @@ h1 small {
     border-color: darkgoldenrod;
     color: darkgoldenrod;
 }
-#title {
-	text-shadow: 2px 2px black;
+
+/* Options pour le contenu */
+.tab-content {
+    max-width: 800px;
+    margin: auto;
 }
+
 
 #descriptif {
 	text-align:justify;
@@ -43,4 +57,10 @@ h1 small {
 	margin:auto;
 }
 
+
+/* Options pour le pied de page */
+footer {
+    background: grey;
+    height: 100px;
+}
 
