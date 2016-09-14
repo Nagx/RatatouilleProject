@@ -37,6 +37,11 @@
                 <?php include('contenus/franchise.php'); ?>
             </div>
         </div>
+        <!--<div>
+           <img class="pill_img" src="images/ratatouille.jpg"/>
+            <img class="pill_img" src=""/>
+            <img class="pill_img" src=""/>
+        </div>-->
     </header>
 
     </br>
