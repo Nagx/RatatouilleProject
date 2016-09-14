@@ -1,4 +1,5 @@
 /* Options Générales */
+
 body {
     color: white;
     background: black;
@@ -42,19 +43,18 @@ h1 small {
     color: darkgoldenrod;
 }
 
+
 /* Options pour le contenu */
+
 .tab-content {
     max-width: 800px;
     margin: auto;
 }
 
-<<<<<<< HEAD
+
 /* Options pour le pied de page */
+
 footer {
     background: grey;
     height: 100px;
 }
-=======
-
->>>>>>> Kev
->>>>>>> origin/Kev
