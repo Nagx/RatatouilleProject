@@ -1,11 +1,9 @@
-
 /* Options Générales */
 
 body {
     color: white;
     background: black;
     text-align: center;
-
 }
 
 
@@ -45,7 +43,6 @@ h1 small {
     color: darkgoldenrod;
 }
 
-
 /* Options pour le contenu */
 
 .tab-content {
@@ -53,12 +50,15 @@ h1 small {
     margin: auto;
 }
 
+
 /* Options pour le descriptif de la page d'accueil' */
+
 #descriptif {
-	text-align:justify;
-	max-width:600px;
-	margin:auto;
+    text-align: justify;
+    max-width: 600px;
+    margin: auto;
 }
+
 
 /* Options pour le pied de page */
 
@@ -66,4 +66,3 @@ footer {
     background: grey;
     height: 100px;
 }
-
