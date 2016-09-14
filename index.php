@@ -10,17 +10,22 @@
 </head>
 
 <body>
+
+    <!-- Entête du site -->
     <header>
         <div class="row">
             <div class="page-header">
                 <h1 id="title">RATATOUILLE<br/><small>-★★★★★-</small></h1>
             </div>
         </div>
+
+        <!-- Menu de navigation -->
         <ul class="nav nav-pills nav-justified">
             <li class="active"><a data-toggle="pill" href="#home">Accueil</a></li>
             <li><a data-toggle="pill" href="#menu1">Qui Sommes-nous</a></li>
             <li><a data-toggle="pill" href="#menu2">Franchise</a></li>
         </ul>
+        <!-- Contenu des pages -->
         <div class="tab-content">
             <div id="home" class="tab-pane fade in active">
                 <?php include('contenus/accueil.php'); ?>
@@ -36,6 +41,7 @@
 
     </br>
 
+    <!-- Pied de page -->
     <footer>
 
     </footer>
