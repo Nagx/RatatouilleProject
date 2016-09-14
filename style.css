@@ -85,9 +85,18 @@ h1 small {
 /* Options images founders */
 
 .founders {
-    float: left;
+	float: left;
+	margin: 0 5px 0 0;
 }
 
+.founder {
+	margin: 10px 0 40px 0;
+}
+
+.require {
+	color: red;
+	font-weight: bold;
+}
 
 /* Options pour le pied de page */
 
