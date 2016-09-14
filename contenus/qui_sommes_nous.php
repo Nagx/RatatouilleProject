@@ -3,11 +3,15 @@
 	Compte tenu de ces conditions nous n'avons pas voulu imposer un menu à tous les restaurants, mais nous avons quand même tenu à valider un plat commun la ratatouille.</p>
 
 <h2>LES FONDATEURS</h2>
+<div class ="founder">
 <h3>Damien ARMENTE</h3>
 <p class="descriptif"><img src='images/damien_armente.jpg' alt="Damien Armenté" class ="founders">Passionné par la bonne cuisine, Damien est un professionnel du Management spécialisé dans l'accompagnement de restaurant traditionnel respectant les critères d'alimentation de proximité.</br>
 	Dans un premier temps baigné dans l'industrie automobile, il décide rapidement d'entreprendre et de développer son expertise dans le conseil, la gestion et la formation en gestion de
 	restaurant et grace à ses capactités de management commercial il a su imposer ses idées dans un secteur en plein boom.</BR>
 	Damien recontre lors de ses suivis Laurent AUBERTIN et décide avec ce dernier de lancer le concept <strong>Ratatouille</strong>.</p>
+</div>
+<div class ="founder">
 <h3>Laurent AUBERTIN</h3>
 <p CLASS="descriptif"><img src='images/laurent_aubertin.jpg' alt="Laurent Aubertin" class ="founders">Grand amoureux de la bonne cuisine et du bio, Laurent à participé à la réalisation de la charte de la franchise ainsi que ses critères d'admissions.</br>
    En tant que second dans un grand restaurant il a voulu s'émanciper et créer son premier restaurant qui grâce à son concept innovant a grandement contribué à la création de la franchise.</p>
+</div>
