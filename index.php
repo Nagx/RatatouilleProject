@@ -38,6 +38,7 @@
             </div>
         </div>
     </header>
+
     <!-- Pied de page -->
     <footer class="container-fluid">
         <div class="row">
