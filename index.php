@@ -42,27 +42,23 @@
     <!-- Pied de page -->
     <footer class="container-fluid">
         <div class="row">
-            <div class="col-md-4" id="bdpleft">
+            <div class="col-xs-4" id="bdpleft">
                 <address>
                       <strong>SARL Ratatouille au capital 70.000€</strong><br>
                       Siège social : 17, rue Delandine, 69002 LYON<br>
                       RCS LYON 042 007 069<br>
                       <abbr title="Phone">Tel:</abbr> 01-23-45-67-89
-                    </address>
-                <address>
-                      <strong>Ratatouille Restaurant</strong><br>
-                      <a href="mailto:#">ratatouille@wildcodeschool.com</a>
+                      <a href="mailto:#">Contact</a>
                     </address>
             </div>
-            <div class="col-md-4" id="bdpcenter">
+            <div class="col-xs-4" id="bdpcenter">
                 <p>© 2016 WildCodeSchool Tous droits réservés.</br>
                     Ceci n'est pas un site présentant un vrai restaurant</br>
                     Mais un travail fait par des étudiant en projet initial</br>
                 </p>
             </div>
-            <div class="col-md-4" id="bdpright">
-                <p>Site hébergé par ?</br>
-                    Directeur de publication: Damien Kevin</p>
+            <div class="col-xs-4" id="bdpright">
+                <p>Powered by : Damien Beauseigneur<br />Kevin Javazzo</p>
             </div>
         </div>
     </footer>

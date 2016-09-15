@@ -3,23 +3,17 @@
 @font-face {
     font-family: 'fancypantsregular';
     src: url('police/FancyPants-webfont.eot');
-    src: url('police/FancyPants-webfont.eot?#iefix') format('embedded-opentype'),
-         url('police/FancyPants-webfont.woff') format('woff'),
-         url('police/FancyPants-webfont.ttf') format('truetype'),
-         url('police/FancyPants-webfont.svg#fancypantsregular') format('svg');
+    src: url('police/FancyPants-webfont.eot?#iefix') format('embedded-opentype'), url('police/FancyPants-webfont.woff') format('woff'), url('police/FancyPants-webfont.ttf') format('truetype'), url('police/FancyPants-webfont.svg#fancypantsregular') format('svg');
     font-weight: normal;
     font-style: normal;
 }
+
 @font-face {
     font-family: 'fontleroybrownregular';
     src: url('police/FontleroyBrown-webfont.eot');
-    src: url('police/FontleroyBrown-webfont.eot?#iefix') format('embedded-opentype'),
-         url('police/FontleroyBrown-webfont.woff') format('woff'),
-         url('police/FontleroyBrown-webfont.ttf') format('truetype'),
-         url('police/FontleroyBrown-webfont.svg#fontleroybrownregular') format('svg');
+    src: url('police/FontleroyBrown-webfont.eot?#iefix') format('embedded-opentype'), url('police/FontleroyBrown-webfont.woff') format('woff'), url('police/FontleroyBrown-webfont.ttf') format('truetype'), url('police/FontleroyBrown-webfont.svg#fontleroybrownregular') format('svg');
     font-weight: normal;
     font-style: normal;
-
 }
 
 body {
@@ -53,6 +47,10 @@ h1 small {
 .nav-pills {
     margin-bottom: 30px;
 }
+.nav-pills a {
+    font-weight: bold;
+}
+
 
 /* Options pour le contenu */
 
@@ -64,14 +62,18 @@ h1 small {
     max-width: 800px;
     margin: auto;
     padding: 10px;
+    margin-bottom: 30px;
 }
-h1, h2, h3 {
+
+h1,
+h2,
+h3 {
     font-family: 'fontleroybrownregular';
     font-weight: bolder;
     margin-bottom: 20px;
 }
 
-.visible-xs {
+.visible-sm {
     margin: auto;
 }
 
@@ -82,14 +84,14 @@ h1, h2, h3 {
 #form_content {
     background: white;
     border: 1px solid #ddd;
-    border-width: 0 1px 1px; /* Removes the top border */
+    border-width: 0 1px 1px;
     padding: 1px;
     padding-bottom: 10px;
 }
 
-/* Options pour le descriptif */
-
-
+.nav-tabs a {
+    font-weight: bold;
+}
 
 /* Options pour les labels du formulaire */
 
@@ -102,7 +104,6 @@ button {
     margin: 10px;
 }
 
-
 .require {
     color: red;
     font-weight: bold;
@@ -112,20 +113,35 @@ button {
 /* Options pour le pied de page */
 
 footer {
-    margin-top: 10px;
-    text-align: left;
     font-size: 10;
-    background: grey;
-    padding-top: 5px;
+    background: #a5a5a5;
+    padding-top: 15px;
+}
+#bdpleft {
+    text-align: left;
+}
+#bdpcenter {
+    text-align: center;
+}
+#bdpright {
+    text-align: right;
+}
+
+footer a {
+    font-weight: bold;
 }
 
 
+
 /* Options pour l'actualité mobile*/
+
 #accordion {
     color: black;
 }
 
+
 /* Options pour l'actualité web */
+
 .nav.nav-justified > li.active > a > .quote {
     opacity: 1;
 }
@@ -156,4 +172,3 @@ footer {
 .tab-pane .tab-inner {
     padding: 30px 0 20px;
 }
-
