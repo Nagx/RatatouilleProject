@@ -7,7 +7,7 @@ function titre1() { ?>
 
 // Contenu actu 1
 function content1() { ?>
-    footer content goes here
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus accusantium sit inventore ipsa nihil, aspernatur perspiciatis natus consectetur doloremque velit quis, maxime at in eveniet ducimus ratione necessitatibus non dolorem.
 <?php }
 
 
@@ -18,7 +18,7 @@ function titre2() { ?>
 
 // Contenu actu 2
 function content2() { ?>
-    footer content goes here
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet ipsam quod quidem maxime. At nihil, libero eos voluptatum culpa obcaecati ut nobis ea rem porro ullam nostrum facilis blanditiis quas.
 <?php }
 
 
@@ -29,7 +29,7 @@ function titre3() { ?>
 
 // Contenu actu 3
 function content3() { ?>
-    footer content goes here
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium ipsam iste, non temporibus suscipit, libero necessitatibus nihil quam, ullam, saepe nisi illo neque dolore commodi doloremque culpa voluptatibus eveniet numquam.
 <?php }
 
 ?>

@@ -1,12 +1,12 @@
-<ul class="nav nav-tabs">
+<ul class="nav nav-tabs nav-justified">
     <li class="active"><a data-toggle="tab" href="#tab1">Description</a></li>
     <li><a data-toggle="tab" href="#tab2">Formulaire</a></li>
 </ul>
 
-<div class="tab-content">
+<div class="tab-content" id="form_content">
     <div id="tab1" class="tab-pane fade in active">
         <div id="franchise_b">
-            <H2>Nos franchisés</H1>
+            <h2>Nos franchisés</h2>
 			<p class="descriptif">Nos franchisés sont les représentants de notre marque de fabrique et par conséquent un standing de base est nécessaire.
 			Ils doivent donc proposer un menu avec des produits bio et frais et issue d'une fillière locale.
 			Pour cela les premiers temps la qualité des menus sera vérifié ainsi que la propreté des cuisines.
@@ -20,8 +20,9 @@
             <p class="descriptif">Une formation d'un mois sera mise en place à la formation aux bonnes pratiques et à l'utilisation des outils de gestion interne et externe propre à notre franchise</p>
         </div>
     </div>
-    <div id="tab2" class="tab-pane fade">
+    <div id="tab2" class="row tab-pane fade">
         <form>
+        <div class="col-md-6">
 			<div class="form-group">
 				<label for="InputNom">Nom <span class="require">*</span></label>
 				<input type="text" class="form-control" id="InputNom" placeholder="Nom" required>
@@ -46,6 +47,8 @@
 				<label for="InputEmail1">adresse email</label>
 				<input type="email" class="form-control" id="InputEmail1" placeholder="Email">
 			</div>
+			</div>
+			<div class="col-md-6">
 			<div class="form-group">
 				<label for="InputTelephone">Téléphone <span class="require">*</span></label>
 				<input type="telephone" class="form-control" id="InputTelephone" placeholder="Téléphone" required>
@@ -70,10 +73,16 @@
 				<label for="InputVilleResto">Ville du futur restaurant <span class="require">*</span></label>
 				<input type="text" class="form-control" id="InputVilleResto" placeholder="Ville du futur restaurant" required>
 			</div>
+            </div>
+            <div class="col-md-offset-2 col-md-8 col-md-offset-2">
 			<div class="form-group">
 				<label for="InputCommentaires">Commentaires</label>
 				<textarea class="form-control" id="InputCommentaires" name="InputCommentaires"></textarea>
 			</div>
-			<button type="submit" class="btn btn-primary">Submit</button>
+			</div>
+			<div class="col-md-12">
+			<button type="submit" class="btn btn-primary">Envoyer</button>
+			</div>
 		</form>
     </div>
+</div>
