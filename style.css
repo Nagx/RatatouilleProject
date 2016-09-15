@@ -56,6 +56,10 @@ h1 small {
 
 /* Options pour le contenu */
 
+.qsm {
+    text-align: justify;
+}
+
 .tab-content {
     max-width: 800px;
     margin: auto;
@@ -64,6 +68,15 @@ h1 small {
 h1, h2, h3 {
     font-family: 'fontleroybrownregular';
     font-weight: bolder;
+    margin-bottom: 20px;
+}
+
+.visible-xs {
+    margin: auto;
+}
+
+.descriptif {
+    margin-bottom: 50px;
 }
 
 #form_content {
@@ -76,10 +89,6 @@ h1, h2, h3 {
 
 /* Options pour le descriptif */
 
-.descriptif {
-    max-width: 800px;
-    margin: 20px 0px 50px 0px;
-}
 
 
 /* Options pour les labels du formulaire */
@@ -93,16 +102,6 @@ button {
     margin: 10px;
 }
 
-/* Options images founders */
-
-.founders {
-    float: left;
-    margin: 0 5px 0 0;
-}
-
-.founder {
-    margin: 10px 0 40px 0;
-}
 
 .require {
     color: red;
