@@ -3,7 +3,7 @@
 // Titre actu 1
 function titre1() { ?> 
    Nos nouveaux Restaurants
-<?php  };
+<?php };
 
 // Contenu actu 1
 function content1() { ?> 
