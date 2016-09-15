@@ -70,7 +70,7 @@
             <ul class="nav nav-justified" id="nav-tabs" role="tablist">
                 <li role="presentation" class="active">
                     <a href="#actu1" role="tab" data-toggle="tab">
-                        <img class="img-circle" src="https://s3.amazonaws.com/uifaces/faces/twitter/dustinlamont/128.jpg" />
+                        <img class="img-circle" src="images/actu1.jpg" />
                     </a>
                 </li>
                 <li role="presentation">
@@ -80,7 +80,7 @@
                 </li>
                 <li role="presentation">
                     <a href="#actu3" role="tab" data-toggle="tab">
-                        <img class="img-circle" src="https://s3.amazonaws.com/uifaces/faces/twitter/annapickard/128.jpg" />
+                        <img class="img-circle" src="images/actu3.jpg" />
                     </a>
                 </li>
             </ul>
