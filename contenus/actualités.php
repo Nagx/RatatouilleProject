@@ -1,35 +1,35 @@
 <?php // Ici se trouvent les titres et contenus des actualités
 
 // Titre actu 1
-function titre1() { ?>
+function titre1() { ?> 
    Nos nouveaux Restaurants
-<?php }
+<?php  };
 
 // Contenu actu 1
-function content1() { ?>
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus accusantium sit inventore ipsa nihil, aspernatur perspiciatis natus consectetur doloremque velit quis, maxime at in eveniet ducimus ratione necessitatibus non dolorem.
-<?php }
+function content1() { ?> 
+    Nous avons le plaisirs d''annoncer l'ouvertures le 5 septembre de 3 nouveaux restaurant à Lyon Toulouse et Bordeaux.
+<?php };
 
 
 // Titre actu 2
 function titre2() { ?>
-   Nos nouveaux Restaurants
-<?php }
+   Notre ratatouille primée
+<?php };
 
 // Contenu actu 2
 function content2() { ?>
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet ipsam quod quidem maxime. At nihil, libero eos voluptatum culpa obcaecati ut nobis ea rem porro ullam nostrum facilis blanditiis quas.
-<?php }
+   La qualité de réalisation de notre ratatouille, nous as permis d'obtenir le prix de la meilleure ratatouille de la ville de la Loupe.
+<?php };
 
 
 // Titre actu 3
 function titre3() { ?>
-   Nos nouveaux Restaurants
-<?php }
+   La franchise qui monte
+<?php };
 
 // Contenu actu 3
 function content3() { ?>
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium ipsam iste, non temporibus suscipit, libero necessitatibus nihil quam, ullam, saepe nisi illo neque dolore commodi doloremque culpa voluptatibus eveniet numquam.
-<?php }
+   La franchise ratatouille a obtenu, le 6 juin dernier, le prix 2016 de la franchise la plus prometteuse du CCI d'Eure-et-Loire.
+<?php };
 
 ?>
