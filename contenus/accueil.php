@@ -93,7 +93,6 @@
                         <p>
                             <?php include content1() ?>
                         </p>
-                        <p><em class="text-capitalize"> Senior web developer</em> at <a href="#">Apple</a></p>
                     </div>
                 </div>
                 <div role="tabpanel" class="tab-pane fade" id="actu2">
@@ -102,7 +101,6 @@
                         <p>
                             <?php include content2() ?>
                         </p>
-                        <p><em class="text-capitalize"> UX designer</em> at <a href="#">Google</a></p>
                     </div>
                 </div>
                 <div role="tabpanel" class="tab-pane fade" id="actu3">
@@ -111,7 +109,6 @@
                         <p>
                             <?php include content3() ?>
                         </p>
-                        <p><em class="text-capitalize"> Master web developer</em> at <a href="#">Intel</a></p>
                     </div>
                 </div>
             </div>
