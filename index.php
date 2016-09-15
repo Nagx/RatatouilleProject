@@ -61,7 +61,7 @@
             </div>
             <div class="col-md-4" id="bdpright">
                 <p>Site hébergé par ?</br>
-                    Directeur de publication: Damien Beauseigneur</p>
+                    Directeur de publication: Damien Kevin</p>
             </div>
         </div>
     </footer>
