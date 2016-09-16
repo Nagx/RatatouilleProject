@@ -28,6 +28,6 @@
 
 </div>
 <!-- carte -->
-<div>
-<iframe width="300px" height="300px" frameBorder="0" src="http://umap.openstreetmap.fr/fr/map/map-ratatouille_102612?scaleControl=false&miniMap=false&scrollWheelZoom=false&zoomControl=true&allowEdit=false&moreControl=true&datalayersControl=true&onLoadPanel=undefined&captionBar=false"></iframe><p><a href="http://umap.openstreetmap.fr/en/map/map-ratatouille_102612">See full screen</a></p>
-</div>
+<!--<div>
+<iframe width="100%" height="300px" frameBorder="0" src="http://umap.openstreetmap.fr/en/map/map-ratatouille_102612?scaleControl=false&miniMap=true&scrollWheelZoom=true&zoomControl=true&allowEdit=false&moreControl=false&datalayersControl=true&onLoadPanel=undefined&captionBar=false&datalayers=244714#6/46.687/5.801"></iframe>
+</div>-->
