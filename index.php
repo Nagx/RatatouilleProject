@@ -55,14 +55,10 @@
                     </address>
             </div>
             <div class="col-xs-4" id="bdpcenter">
-                <p>© 2016 WildCodeSchool Tous droits réservés.</br>
-                    Ceci n'est pas un site présentant un vrai restaurant</br>
-                    Mais un travail fait par des étudiant en projet initial</br>
-                </p>
             </div>
             <div class="col-xs-4" id="bdpright">
-                <p>Powered by : Damien Beauseigneur
-                    <br />Kevin Javazzo</p>
+                <p>Réalisé par les élèves de la Wild Code School<br />
+                © 2016 WildCodeSchool Tous droits réservés.</p>
             </div>
         </div>
     </footer>
