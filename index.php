@@ -40,7 +40,7 @@
     </header>
     <div id="map">
        <h2>Où nous trouver</h2>
-        <iframe width="100%" height="300px" frameBorder="0" src="http://umap.openstreetmap.fr/en/map/map-ratatouille_102612?scaleControl=false&miniMap=true&scrollWheelZoom=true&zoomControl=true&allowEdit=false&moreControl=false&datalayersControl=true&onLoadPanel=undefined&captionBar=false&datalayers=244714#6/46.687/5.801"></iframe>
+        <iframe width="100%" height="300px" frameBorder="0" src="http://umap.openstreetmap.fr/en/map/map-ratatouille_102612?scaleControl=false&miniMap=false&scrollWheelZoom=true&zoomControl=true&allowEdit=false&moreControl=false&datalayersControl=true&onLoadPanel=undefined&captionBar=false&datalayers=244714#6/46.687/5.801"></iframe>
     </div>
     <!-- Pied de page -->
     <footer class="container-fluid">
