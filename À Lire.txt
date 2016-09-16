@@ -1,4 +1,5 @@
 Pour éditer le contenu de l'actualité veuillez suivre les étapes suivantes :
+
 -Aller dans le dossier "contenus" et ouvrir le fichier "actualités.php.
 -Editer seulement le texte entre les balises "function titre1() { ?>" et "<?php };".
 -Bien suivre les commentaires pour éditer le contenu désiré.

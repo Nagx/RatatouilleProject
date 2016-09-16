@@ -11,10 +11,12 @@
 
             <H2>Emplacement Souhaité</H2>
 
-            <p class="descriptif">Nous souherons un restaurant de 40 places minimum, dans une zone d'activité avec parking, centre commerciaux et centre ville</p>
+            <p class="descriptif">Nous souherons un restaurant de 40 places minimum, dans une zone d'activité avec parking, centre commerciaux et centre ville.<br />
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem repudiandae possimus error harum unde quae, debitis adipisci eos asperiores rem laboriosam obcaecati, repellendus nostrum dicta, porro consequuntur molestias, nemo tempora.</p>
 
             <H2>Formation et assistance</H2>
-            <p class="descriptif">Une formation d'un mois sera mise en place à la formation aux bonnes pratiques et à l'utilisation des outils de gestion interne et externe propre à notre franchise</p>
+            <p class="descriptif">Une formation d'un mois sera mise en place à la formation aux bonnes pratiques et à l'utilisation des outils de gestion interne et externe propre à notre franchise.<br />
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit aspernatur, minima, inventore, amet reiciendis nihil eveniet ea cumque delectus, animi consectetur! Tenetur laudantium incidunt tempore libero sint. Voluptatibus, non, ex?</p>
         </div>
     </div>
     <div id="tab2" class="row tab-pane fade">
