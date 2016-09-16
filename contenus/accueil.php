@@ -89,7 +89,7 @@
             <div class="tab-content" id="tabs-collapse">
                 <div role="tabpanel" class="tab-pane fade in active" id="actu1">
                     <div class="tab-inner">
-                        <p class="lead"><strong><h2><?php include titre1() ?></h2></strong></p>
+                        <p class="lead"><h2><?php include titre1() ?></h2></p>
                         <p>
                             <?php include content1() ?>
                         </p>
@@ -97,7 +97,7 @@
                 </div>
                 <div role="tabpanel" class="tab-pane fade" id="actu2">
                     <div class="tab-inner">
-                        <p class="lead"><strong><h2><?php include titre2() ?></h2></strong></p>
+                        <p class="lead"><h2><?php include titre2() ?></h2></p>
                         <p>
                             <?php include content2() ?>
                         </p>
@@ -105,7 +105,7 @@
                 </div>
                 <div role="tabpanel" class="tab-pane fade" id="actu3">
                     <div class="tab-inner">
-                        <p class="lead"><strong><h2><?php include titre3() ?></h2></strong></p>
+                        <p class="lead"><h2><?php include titre3() ?></h2></p>
                         <p>
                             <?php include content3() ?>
                         </p>

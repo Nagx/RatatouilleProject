@@ -50,9 +50,30 @@ h1 small {
 .nav-pills a {
     font-weight: bold;
 }
+.nav-pills > li.active > a:hover,
+.nav-pills > li.active > a:focus{
+    background: rgb(95, 95, 95);
+}
 
+.nav-pills > li.active > a {
+    background: rgb(60, 60, 60);
+}
+.nav-pills > li > a {
+    color: #585858;
+}
+
+.nav-tabs.nav-justified > li > a {
+    color: #585858;
+}
 
 /* Options pour le contenu */
+
+#map {
+    max-width: 800px;
+    height: auto;
+    margin: auto;
+    text-align: center;
+}
 
 .qsm {
     text-align: justify;
@@ -69,8 +90,8 @@ h1,
 h2,
 h3 {
     font-family: 'fontleroybrownregular';
-    font-weight: bolder;
     margin-bottom: 20px;
+    font-weight: normal;
 }
 
 .visible-sm {
